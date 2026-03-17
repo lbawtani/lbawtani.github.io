@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luis Awtani - Experience</title>
+    <title>Luis Bernardo Awtani - Experience</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="experience.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -45,15 +45,14 @@
                     </div>
                 </li>
                 <li>
-                    <div class="project-card" data-project="duckiebot">
-                        <h3>DuckieBot (Upcoming)</h3>
-                        <p>A Compact Level 4 Autonomous Vehicle</p>
+                    <div class="project-card" data-project="fpga">
+                        <h3>Advent of FPGA: HardCaml Challenge</h3>
+                        <p>Jane Street's Advent of FPGA — Day 3 Part 1 in HardCaml</p>
                         <div class="project-tags">
-                            <span>Robotics</span>
-                            <span>Computer Vision</span>
-                            <span>Python</span>
-                            <span>Docker</span>
-                            <span>Linux</span>
+                            <span>OCaml</span>
+                            <span>HardCaml</span>
+                            <span>FPGA</span>
+                            <span>Hardware Design</span>
                         </div>
                     </div>
                 </li>
@@ -95,19 +94,22 @@
                     </div>
                 </div>
 
-                <div class="project-detail-content" id="duckiebot-details" style="display: none;">
-                    <img src="images/duckiebot.jpg" alt="DuckieBot" class="project-banner">
-                    <h2>Duckiebot: Scaled Autonomous Vehicle (Upcoming)</h2>
-                    <p>Developing the agent layer for a scaled autonomous vehicle capable of navigating Duckietown, a simulated urban environment consisting of roads and pedestrian duckies.</p>
+                <div class="project-detail-content" id="fpga-details" style="display: none;">
+                    <h2>Advent of FPGA: HardCaml Challenge</h2>
+                    <p>Submission to Jane Street's Advent of FPGA challenge, implementing a hardware solution in HardCaml (OCaml-based HDL). Day 3 involves processing an input stream of digits to find the highest joltage for each row — extracting and concatenating two digits to form the largest possible two-digit number while preserving relative order, then summing all joltages across every row.</p>
                     <div class="project-features">
                         <ul>
-                            <li>Preemptive obstacle detection and avoidance</li>
-                            <li>Vision-based motor matrix for dynamic path planning</li>
-                            <li>Closed-loop control systems (PID) for precise navigation</li>
-                            <li>Scaled model demonstrating principles of Level 4 autonomy</li>
-                        </ul>    
+                            <li>HardCaml circuit for max digit tracking across input streams</li>
+                            <li>Custom testbench for simulation and verification</li>
+                            <li>Digit extraction with order-preserving constraints</li>
+                            <li>Built with OCaml 5.2.0 and Dune build system</li>
+                        </ul>
                     </div>
-        
+                    <div class="project-links">
+                        <a href="https://github.com/lbawtani/AdventofFPGA" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
                 </div>
                 <!-- UCL Project Details -->
                 <div class="project-detail-content" id="ucl-details" style="display: none;">
